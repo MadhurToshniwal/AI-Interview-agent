@@ -6,6 +6,10 @@
 [![Vite](https://img.shields.io/badge/Vite-7.2-646CFF.svg)](https://vitejs.dev/)
 [![Groq AI](https://img.shields.io/badge/Groq-Llama%203.3-orange.svg)](https://groq.com/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38B2AC.svg)](https://tailwindcss.com/)
+[![PDF.js](https://img.shields.io/badge/PDF.js-5.4-red.svg)](https://mozilla.github.io/pdf.js/)
+[![NLP](https://img.shields.io/badge/NLP-Sentiment%20Analysis-purple.svg)](#)
+[![Web Speech API](https://img.shields.io/badge/Speech-STT%2FTTS-green.svg)](#)
+[![Conversational AI](https://img.shields.io/badge/AI-Multi--turn%20Dialogue-orange.svg)](#)
 
 **🔗 Live Demo**: [https://ai-interview-agent-dusky.vercel.app](https://ai-interview-agent-dusky.vercel.app)
 
