@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+  min-height: 100vh;
+  color: white;
+}
+
+.btn-primary {
+  background: linear-gradient(to right, #2563eb, #9333ea);
+  color: white;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+}
+
+.btn-primary:hover:not(:disabled) {
+  background: linear-gradient(to right, #1d4ed8, #7e22ce);
+  transform: scale(1.05);
+}
+
+.btn-primary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-secondary {
+  background-color: #334155;
+  color: white;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+}
+
+.btn-secondary:hover:not(:disabled) {
+  background-color: #475569;
+}
+
+.btn-secondary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.card {
+  background-color: rgba(30, 41, 59, 0.5);
+  backdrop-filter: blur(16px);
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(51, 65, 85, 0.5);
+}
+
+.input {
+  background-color: rgba(51, 65, 85, 0.5);
+  border: 1px solid #475569;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  transition: all 0.3s;
+}
+
+.input::placeholder {
+  color: #94a3b8;
+}
+
+.input:focus {
+  outline: none;
+  ring: 2px;
+  ring-color: #3b82f6;
+  border-color: transparent;
+}
+
+@keyframes wave {
+  0%, 100% { transform: scaleY(0.5); }
+  50% { transform: scaleY(1); }
+}
+
+.animate-wave {
+  animation: wave 1.5s ease-in-out infinite;
+}
+
+
