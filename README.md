@@ -7,7 +7,7 @@
 [![Groq AI](https://img.shields.io/badge/Groq-Llama%203.3-orange.svg)](https://groq.com/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38B2AC.svg)](https://tailwindcss.com/)
 
-**🔗 Live Demo**: [Try it now!](https://your-deployed-app.vercel.app) *(Will be updated after deployment)*
+**🔗 Live Demo**: [https://ai-interview-agent-dusky.vercel.app](https://ai-interview-agent-dusky.vercel.app)
 
 ---
 
